@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess word Game</title>
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="/CSS/styles.css">
     <link rel="icon" href="images/favicon.png">
 </head>
 <body>
-    <div>
+    <div class="main-div">
+        <div class="main-image">
+            <img src="/images/Guess-the-words.png" alt="Guess-the-words logo" class="image-size">
+        </div>
         <div id="puzzle" class="puzzle"></div>
-        <p id="guesses"></p>
+        <p id="guesses" class="remainingGuesses"></p>
         <button id="resetButton" class="button">Reset</button>
     </div>
+    <script src="/JS/requests.js"></script>
+    <script src="/JS/hangman.js"></script>
+    <script src="/JS/app.js"></script>
 </body>
 </html>

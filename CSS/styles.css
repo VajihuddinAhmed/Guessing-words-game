@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: lightseagreen;
+    color: #fafafa;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.image-size {
+    width: 50%;
+    height: 50%;
+}
+
+span {
+    border-bottom: 1px solid #534f59;
+    display: inline-block;
+    font-size: 2rem;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    margin: 0 .1rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 2.4rem;
+}
+
+p {
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.remainingGuesses {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+.puzzle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4.8rem;
+}
+
+.button {
+    margin-left: 21rem;
+    background: red;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    border: none;
+    width: 10rem;
+    cursor: pointer;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    transition: background .3s ease, color .3s ease;
+}
+
+.button:hover {
+    background: whitesmoke;
+    color: red;
+}
+
+.button:focus {
+    outline: none;
+}
